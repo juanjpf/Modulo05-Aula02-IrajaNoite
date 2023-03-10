@@ -3,8 +3,8 @@ function UsuarioController(app){
     function exibir(req, res){
         res.send('Exibindo Usuários')
     }
-    app.post('/usuario',postar)
-    function postar(req, res){
+    app.post('/usuario',inserir)
+    function inserir(req, res){
         res.send('Inserindo Usuários')
     }
 }
