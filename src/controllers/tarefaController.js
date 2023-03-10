@@ -3,8 +3,8 @@ function TarefaController(app){
     function exibir(req, res){
         res.send('Exibindo Tarefas')
     }
-    app.post('/tarefa',postar)
-    function postar(req, res){
+    app.post('/tarefa',inserir)
+    function inserir(req, res){
         res.send('Inserindo Tarefas')
     }
 }
